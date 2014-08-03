@@ -1,14 +1,175 @@
-<!DOCTYPE hHTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<meta charset="utf-8"/>
-		<title>Ruoshi's Site</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<title>Ruoshi Li</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="Content/bootstrap.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="Content/main.css" rel="stylesheet">
+
+
 		
+		<link rel="stylesheet" href="Content/highslide.css" type="text/css" />
+
+		
+		<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" href="Content/highslide-ie6.css" />
+		<![endif]-->
+
+		
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
 	</head>
-    <body>
-        <h1>This is Ruoshi's web site.</h1>
-        <a href="#">Personal Projects</a>
-        <a href="#">Resume</a>
-        <a href="about.html">About</a>
-    </body>
+
+	<body>
+
+		<!-- Static navbar -->
+		<div class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">
+						Ruoshi Li
+					</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">
+								Work
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								About
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Blog
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Contact
+							</a>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+
+		<!-- +++++ Welcome Section +++++ -->
+		<div id="ww">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 centered">
+						<img src="Content/img/user.png" alt="Stanley">
+						<h1>Hi, I am Ruoshi!</h1>
+						<p>
+							Hello everybody. I'm Ruoshi, a software developer.
+						</p>
+					</div><!-- /col-lg-8 -->
+				</div><!-- /row -->
+			</div>
+			<!-- /container -->
+		</div><!-- /ww -->
+		
+		<!-- +++++ Footer Section +++++ -->
+
+		<div id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<h4>My Email</h4>
+						<p>
+							me#ruoshi,li
+							<br />
+							<i style="font-size: xx-small; color:#2f2f2f;">I bet you know how to decode it :)</i>
+						</p>
+					</div><!-- /col-lg-4 -->
+
+					<div class="col-lg-4">
+						<h4>My Links</h4>
+						<p>
+							<a href="http://weibo.com/iceboundrock" target="_blank">
+								Weibo
+							</a>
+							<br/>
+							<a href="https://twitter.com/iceboundrock" target="_blank">
+								Twitter
+							</a>
+							<br/>
+							<a href="https://www.linkedin.com/in/iceboundrock">
+								LinkedIn
+							</a>
+							<br/>
+							<a href="Content/img/WeChat.png" onclick="return hs.expand(this)">
+								WeChat
+							</a>
+							<br/>
+							<a href="Content/img/BBM.jpg" onclick="return hs.expand(this)">
+								BBM
+							</a>
+						</p>
+					</div><!-- /col-lg-4 -->
+
+					<div class="col-lg-4">
+						<h4>About Me</h4>
+						<p>
+							A man who is curious about all things in the universe.
+						</p>
+					</div><!-- /col-lg-4 -->
+
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js"></script>
+		
+		<script src="Scripts/hover.zoom.js"></script>
+		<script src="Scripts/hover.zoom.conf.js"></script>
+		<script src="Scripts/bootstrap.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="Scripts/highslide-with-gallery.min.js"></script>
+		<script type="text/javascript">
+			//<![CDATA[
+			hs.registerOverlay({
+				html : '<div class="closebutton" onclick="return hs.close(this)" title="Close"></div>',
+				position : 'top right',
+				fade : 2 // fading the semi-transparent overlay looks bad in IE
+			});
+
+			hs.graphicsDir = 'Content/graphics/';
+			hs.wrapperClassName = 'borderless';
+			hs.align = 'center';
+			hs.transitions = ['expand', 'crossfade'];
+			hs.outlineType = 'rounded-white';
+			hs.fadeInOut = true;
+			//hs.numberPosition = 'caption';
+			hs.dimmingOpacity = 0.75;
+			hs.lang.creditsText = "";
+
+			//]]>
+		</script>
+	</body>
 </html>
