@@ -28,3 +28,5 @@ PublishProfiles/
 *.vspx
 *.log.txt
 .project
+.c9/
+node_modules/
