@@ -113,6 +113,37 @@ a:after {
 	color: #222222;
 }
 
+.navbar-social-link {
+	color: #f8f9fa;
+	display: inline-flex;
+	align-items: center;
+	transition: color 0.2s ease-in-out;
+}
+
+.navbar-social-link i {
+	color: inherit;
+	transition: color 0.2s ease-in-out;
+}
+
+.navbar-social-link:hover,
+.navbar-social-link:focus {
+	color: black;
+}
+
+.navbar-social-link:hover i,
+.navbar-social-link:focus i {
+	color: inherit;
+}
+
+#portrait {
+	width: 256px;
+	height: 256px;
+	border-radius: 50%;
+	object-fit: cover;
+	display: inline-block;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
 .navbar-brand {
 	font-weight: 700;
 	font-size: 20px;
